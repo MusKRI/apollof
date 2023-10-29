@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 // import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation } from "@tanstack/react-query";
 import { AxiosError } from "axios";
 
 // ***** Local Imports *****
@@ -28,7 +28,7 @@ import {
 } from "@/components/ui/form/form";
 import { Input } from "@/components/ui/input/input";
 import { Button } from "@/components/ui/button/button";
-import { getAllPages } from "@/apiConfig/current-openings-apis";
+// import { getAllPages } from "@/apiConfig/current-openings-apis";
 
 const formSchema = z.object({
   username: z

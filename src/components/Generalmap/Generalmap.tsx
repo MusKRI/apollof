@@ -81,7 +81,7 @@ const Generalmap: React.FC<GeneralMapProps> = ({ value }) => {
                                     placeholder={values.name}
                                     className="form-control"
                                     id="exampleFormControlTextarea1"
-                                    rows="3"
+                                    rows={3}
                                   ></textarea>
                                 ) : (
                                   <Field

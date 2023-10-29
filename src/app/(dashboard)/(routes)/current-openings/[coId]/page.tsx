@@ -1,5 +1,5 @@
 // ***** Library Imports *****
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -46,9 +46,9 @@ const formSchema = z.object({
 type CurrentOpeningFormValues = z.infer<typeof formSchema>;
 
 const CurrentSingleOpening = () => {
-  const params = useParams() as {
-    coId: string;
-  };
+  // const params = useParams() as {
+  //   coId: string;
+  // };
 
   // 1. Define your form.
   const form = useForm<CurrentOpeningFormValues>({
