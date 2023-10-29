@@ -15,10 +15,10 @@ type GeneralMapProps = {
         className: any;
         // placeholder: string;
       }[];
-      btnContainer: any;
-      btnClass: any;
-      btnContent: any;
-      Btnstyle: {
+      btnContainer?: any;
+      btnClass?: any;
+      btnContent?: any;
+      Btnstyle?: {
         [key: string]: any;
       };
     }[];
