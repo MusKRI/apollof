@@ -1,5 +1,5 @@
 type InputProp = {
-  type: string[]; // Replace 'any[]' with the specific type you intend to use for 'value'
+  type: any[]; // Replace 'any[]' with the specific type you intend to use for 'value'
 };
 
 const MediaField = ({ type }: InputProp) => {

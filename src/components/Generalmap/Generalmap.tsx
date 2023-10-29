@@ -7,19 +7,19 @@ import MediaField from "./MediaFIeld";
 type GeneralMapProps = {
   value: {
     [key: string]: {
-      Heading: string;
-      Parent: string;
+      Heading: any;
+      Parent: any;
       child: {
-        type: string;
-        name: string;
-        className: string;
+        type: any;
+        name: any;
+        className: any;
         // placeholder: string;
       }[];
-      btnContainer: string;
-      btnClass: string;
-      btnContent: string;
+      btnContainer: any;
+      btnClass: any;
+      btnContent: any;
       Btnstyle: {
-        [key: string]: string;
+        [key: string]: any;
       };
     }[];
   }[];
